@@ -12,6 +12,7 @@ format:
     title-slide-attributes:
       data-background-image: img/michiel-leunens-X0akI5dmzH0-unsplash.jpg
       data-background-size: cover  
+output-dir: docs
 editor: visual
 ---
 
@@ -189,71 +190,72 @@ There are four main methods of social care delivery
 
 ##  {background-image="img/oecd.png" background-size="contain" background-position="50% 25%"}
 
-
 ## International models of social care
+
 ### Colombo et al (2011) taxonomy - three main clusters
 
 ![](img/colombo.png)
 
 ## International models of social care
+
 ### Universal models
 
-- Access not determined by income (user or family)
-- Therefore wide uptake
-- User out-of-pocket payments are still a feature!!!
-  - Varies from country to country (4% in Sweden 33% in Korea)
-- Income may be assesses in some cost-sharing models
-- More expensive than other systems
-  - OECD average 1.5% GDP
-  - Universal systems up to 3.6% GDP (2011)
+-   Access not determined by income (user or family)
+-   Therefore wide uptake
+-   User out-of-pocket payments are still a feature!!!
+    -   Varies from country to country (4% in Sweden 33% in Korea)
+-   Income may be assesses in some cost-sharing models
+-   More expensive than other systems
+    -   OECD average 1.5% GDP
+    -   Universal systems up to 3.6% GDP (2011)
 
 ## International models of social care
+
 ### Universal models - the holy grail?
 
-“… the separation between health and long-term care budgets in all these countries but Belgium, generally reduces utilisation of more expensive health care services and professionals (e.g. hospital care, doctors) for long-term care needs, for example by making “social hospitalisation” of frail people with LTC needs more difficult”
-
+"... the separation between health and long-term care budgets in all these countries but Belgium, generally reduces utilisation of more expensive health care services and professionals (e.g. hospital care, doctors) for long-term care needs, for example by making "social hospitalisation" of frail people with LTC needs more difficult"
 
 [No evidence to back this up!!]{style="color:#CC6677;"}
 
-
 ## International models of social care
+
 ### Mixed systems
 
-- Highly heterogenous
-- Characterised by lack of single-programme LTC system and range of LTC benefits
-  - [Parallel universal schemes:]{style="color:#4477AA;"} e.g. Scotland Free personal care at home and in institution but means-tested accommodation charges in care homes and non PC care charges at home.
-  - [Income-related universal benefit:]{style="color:#4477AA;"} e.g. France, Ireland. All assessed as eligible get public benefit but amount is adjusted according to means
-  - [Mix of universal and means-tested care:]{style="color:#4477AA;"}  Universal coverage of skilled nursing care OR personal care at home (not both)
+-   Highly heterogenous
+-   Characterised by lack of single-programme LTC system and range of LTC benefits
+    -   [Parallel universal schemes:]{style="color:#4477AA;"} e.g. Scotland Free personal care at home and in institution but means-tested accommodation charges in care homes and non PC care charges at home.
+    -   [Income-related universal benefit:]{style="color:#4477AA;"} e.g. France, Ireland. All assessed as eligible get public benefit but amount is adjusted according to means
+    -   [Mix of universal and means-tested care:]{style="color:#4477AA;"} Universal coverage of skilled nursing care OR personal care at home (not both)
 
 ## International models of social care
+
 ### Means-tested safety net
 
-- Income and/or assets are used to set threshold for eligibility to publicly-funded LTC – only those falling below the thresholds receive funds
-- United States
-- Also England but:
-  - Attendance Allowance
-  - Universal Credit (previously DLA, PIP)
-  - Health component free (Good if cancer, Bad if dementia)
-- Generally thought to result in unmet need and leaves some families above the threshold vulnerable to catastrophic care costs (1 in 10 in England)
+-   Income and/or assets are used to set threshold for eligibility to publicly-funded LTC -- only those falling below the thresholds receive funds
+-   United States
+-   Also England but:
+    -   Attendance Allowance
+    -   Universal Credit (previously DLA, PIP)
+    -   Health component free (Good if cancer, Bad if dementia)
+-   Generally thought to result in unmet need and leaves some families above the threshold vulnerable to catastrophic care costs (1 in 10 in England)
 
 ## International models of social care
-- Rising demand for LTC and expectation of quality
-- Unlikely supply of unpaid care will meet this demand = ↑demand for formal health and social care services and/or unmet need which = ↓ QoL
-- Funding models are essential to patterns of care receipt via (dis)incentivisation. 
-- State bears the cost for highest need with lowest resources in all state. What happens with the rest is what matters.
 
+-   Rising demand for LTC and expectation of quality
+-   Unlikely supply of unpaid care will meet this demand = ↑demand for formal health and social care services and/or unmet need which = ↓ QoL
+-   Funding models are essential to patterns of care receipt via (dis)incentivisation.
+-   State bears the cost for highest need with lowest resources in all state. What happens with the rest is what matters.
 
 ## Social care in the UK
 
-- Social care is a devolved matter
-- England, Scotland and Wales all employ thresholds for care access
-- Data on Northern Ireland is hard to come by
-- Property is only adjudicated an asset with reference to residential care
-- Wales has a more generous threshold than other nations
-- Personal Care is free in Scotland
-- Rates of receipt of social care have reduced in all home nations since 2010
-- Austerity has created major difficulties for Local Authorities
-
+-   Social care is a devolved matter
+-   England, Scotland and Wales all employ thresholds for care access
+-   Data on Northern Ireland is hard to come by
+-   Property is only adjudicated an asset with reference to residential care
+-   Wales has a more generous threshold than other nations
+-   Personal Care is free in Scotland
+-   Rates of receipt of social care have reduced in all home nations since 2010
+-   Austerity has created major difficulties for Local Authorities
 
 ##  {background-image="img/figure_1.jpg" background-size="contain" background-position="centre"}
 
@@ -261,15 +263,14 @@ There are four main methods of social care delivery
 
 ## Social care and inequalities
 
-- Is there an “Inverse social care law”?
-- No good measures of need
-- How is eligibility defined/applied?
-  - Direct effect on equity and access
-  - National Eligibility Framework in England (similar in Scotland)
-  - Likely to need “Critical” assessment before care is provided – “intensification”
+-   Is there an "Inverse social care law"?
+-   No good measures of need
+-   How is eligibility defined/applied?
+    -   Direct effect on equity and access
+    -   National Eligibility Framework in England (similar in Scotland)
+    -   Likely to need "Critical" assessment before care is provided -- "intensification"
 
-“…such an approach is economically unsound. Waiting for people to have high needs before providing care means that care will be more expensive, as well as pushing more people into an already pressurised NHS.” (Abrahams et al, 2014)
-
+"...such an approach is economically unsound. Waiting for people to have high needs before providing care means that care will be more expensive, as well as pushing more people into an already pressurised NHS." (Abrahams et al, 2014)
 
 ## Thank you
 
@@ -279,13 +280,8 @@ There are four main methods of social care delivery
 :::
 
 ::: {.column width="50%"}
-
-- Any questions??
-
+-   Any questions??
 :::
 :::
-
-
-
 
 \## {background-image="img/vlad-sargu-ItphH2lGzuI-unsplash.jpg"}
