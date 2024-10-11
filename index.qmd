@@ -1,0 +1,291 @@
+---
+title: "Social care research"
+author:
+  - Dr. David Henderson, Usher Institute, University of Edinburgh
+format: 
+  revealjs:
+    multiplex: true
+    #footer: "[apreshill.github.io/palmerpenguins-useR-2022/](https://apreshill.github.io/palmerpenguins-useR-2022/)"
+    theme: ["pp.scss"]
+    slide-number: c/t
+    incremental: false
+    title-slide-attributes:
+      data-background-image: img/michiel-leunens-X0akI5dmzH0-unsplash.jpg
+      data-background-size: cover  
+editor: visual
+---
+
+```{r setup}
+#| include: false
+
+
+# for color
+library(paletteer)
+
+
+# for fonts
+library(showtext)
+font_add_google("Jost", "Jost")
+showtext_auto()
+
+```
+
+## About me
+
+-   Registered Nurse
+-   Quantitative Research Fellow at the Usher Institute
+-   Interests in:
+    -   Multimorbidity
+    -   Health and social care services
+    -   Health inequalities
+    -   Large data linkage projects
+
+## Today
+
+-   What is social care?
+
+-   Politics and Policy of social care in the UK
+
+-   International models of social care
+
+-   Social care and inequalities
+
+## What is social care?
+
+::: columns
+::: {.column width="50%"}
+![](img/andre-ouellet-FzECg2eNhj4-unsplash.jpg)
+:::
+
+::: {.column width="50%"}
+-   Often referred to as "Long-term care"
+
+-   No accepted definition or measurement (a bit like multimorbidity)
+:::
+:::
+
+## Long defintion
+
+"Adult Social Care"... includes all forms of personal care and other practical assistance provided for individuals who, for reasons of age, illness, disability, pregnancy, childbirth, dependency on alcohol or drugs, or any other similar circumstances, are in need of such care or other assistance..." [^1]
+
+[^1]: The Health and Social Care Act 2012 c7, part 3, chapter 1, Section 65, Subsection 4
+
+## Longer definition
+
+"... a range of services required by persons with a reduced degree of functional capacity, physical or cognitive, and who are consequently dependent for an extended period of time with basic activities of daily living (ADL). [This "personal care" component is frequently provided in combination with help with basic medical services such as "nursing care" (wound dressing, pain management, medication, health monitoring), as well as prevention, rehabilitation or palliative care.]{style="color:#CC6677;"} Long term care services can also be combined with lower-level care related to"domestic help" or help with instrumental activities of daily living (IADL)." [^2]
+
+[^2]: OECD/EU (2013) A good life in old age? Monitoring and improving quality in long-term care. https://www.oecd-ilibrary.org/social-issues-migration-health/a-good-life-in-old-age_9789264194564-en
+
+## Short(ish) definition
+
+-   [Social care is:]{style="color:#4477AA;"}
+    -   A group of services.
+-   [Delivered by:]{style="color:#4477AA;"}
+    -   A range of professionals.
+-   [In]{style="color:#4477AA;"}
+    -   Various locations
+
+## Short(ish) definition
+
+-   [Social care is:]{style="color:#4477AA;"}
+    -   A group of services.
+    -   [Skilled nursing care, social work, personal care, medical equipment & technologies, and therapies.]{style="color:#CC6677;"}
+-   [Delivered by:]{style="color:#4477AA;"}
+    -   A range of professionals.
+    -   [Nurses, Carers, or Allied Health Professionals]{style="color:#CC6677;"}
+-   [In]{style="color:#4477AA;"}
+    -   Various locations
+    -   [At home, in an institution, or via community care]{style="color:#CC6677;"}[^3]
+
+[^3]: Colombo et al (2011). Help Wanted? Providing and paying for long-term care. OECD. https://read.oecd-ilibrary.org/social-issues-migration-health/help-wanted_9789264097759-en#page1
+
+## Final definition
+
+### ....but not of social care
+
+-   "Health is a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity. [^4]
+
+-   The enjoyment of the highest attainable standard of health is one of the fundamental rights of every human being without distinction of race, religion, political belief, economic or social condition..."
+
+[^4]: Constitution of the World Health Organisation
+
+## Who provides social care
+
+There are four main methods of social care delivery
+
+-   [Informally]{style="color:#4477AA;"}
+
+    -   Family or Community
+
+-   [Formally via the state]{style="color:#4477AA;"}
+
+-   [Formally via the third sector]{style="color:#4477AA;"}
+
+    -   Charities and not-for-profit organisations
+
+-   [Private]{style="color:#4477AA;"}
+
+## Health and social care in the UK
+
+::: columns
+::: {.column width="\"50%"}
+[Social care]{.underline}
+
+-   [Commissioned]{style="color:#CC6677;"} by local authority or similar
+-   Needs [and]{style="color:CC6677;"} Means tested [^5]
+:::
+
+::: {.column width="50%"}
+[Health Care]{.underline}
+
+-   Free at the point of need\
+:::
+:::
+
+[^5]: Very few people realise they will need to pay for social care until they actually need it (Humphries et al, 2016, Bottery et al, 2018)
+
+## Policy and Politics of Social Care
+
+::: columns
+::: {.column width="\"50%"}
+-   Politically sensitive
+-   Has claimed a number of high-profile scalps
+-   Reform requires lots of money = increased taxes = disagreement
+:::
+
+::: {.column width="50%"}
+![](img/tattie.png)
+:::
+:::
+
+## Policy and Politics of Social Care
+
+-   Never ending wait for a green paper in England
+-   Increase in National Insurance announced, then proposed to be cut.
+-   Health & Social Care Integration launched in England this year (ICB)
+-   National Care Service in Scotland (stalled?)
+-   Northern Ireland -- Integrated care since 1973
+-   Wales -- National Integrated Care Fund
+-   No easy answers
+
+## Policy and Politics of Social Care
+
+![](img/editorial.png)
+
+## Comparison in OECD countries (2011)
+
+::: columns
+::: {.column width="50%"}
+![](img/help_wanted.png)
+:::
+
+::: {.column width="50%"}
+-   Cost of care can be high but spending (as % of GDP) relatively low across OECD when compared to health or pension spending
+-   Many different approaches to financing this
+-   Almost all countries pool the risk of dependency through publicly financed systems
+-   Private insurance barely used
+:::
+:::
+
+##  {background-image="img/oecd.png" background-size="contain" background-position="50% 25%"}
+
+
+## International models of social care
+### Colombo et al (2011) taxonomy - three main clusters
+
+![](img/colombo.png)
+
+## International models of social care
+### Universal models
+
+- Access not determined by income (user or family)
+- Therefore wide uptake
+- User out-of-pocket payments are still a feature!!!
+  - Varies from country to country (4% in Sweden 33% in Korea)
+- Income may be assesses in some cost-sharing models
+- More expensive than other systems
+  - OECD average 1.5% GDP
+  - Universal systems up to 3.6% GDP (2011)
+
+## International models of social care
+### Universal models - the holy grail?
+
+“… the separation between health and long-term care budgets in all these countries but Belgium, generally reduces utilisation of more expensive health care services and professionals (e.g. hospital care, doctors) for long-term care needs, for example by making “social hospitalisation” of frail people with LTC needs more difficult”
+
+
+[No evidence to back this up!!]{style="color:#CC6677;"}
+
+
+## International models of social care
+### Mixed systems
+
+- Highly heterogenous
+- Characterised by lack of single-programme LTC system and range of LTC benefits
+  - [Parallel universal schemes:]{style="color:#4477AA;"} e.g. Scotland Free personal care at home and in institution but means-tested accommodation charges in care homes and non PC care charges at home.
+  - [Income-related universal benefit:]{style="color:#4477AA;"} e.g. France, Ireland. All assessed as eligible get public benefit but amount is adjusted according to means
+  - [Mix of universal and means-tested care:]{style="color:#4477AA;"}  Universal coverage of skilled nursing care OR personal care at home (not both)
+
+## International models of social care
+### Means-tested safety net
+
+- Income and/or assets are used to set threshold for eligibility to publicly-funded LTC – only those falling below the thresholds receive funds
+- United States
+- Also England but:
+  - Attendance Allowance
+  - Universal Credit (previously DLA, PIP)
+  - Health component free (Good if cancer, Bad if dementia)
+- Generally thought to result in unmet need and leaves some families above the threshold vulnerable to catastrophic care costs (1 in 10 in England)
+
+## International models of social care
+- Rising demand for LTC and expectation of quality
+- Unlikely supply of unpaid care will meet this demand = ↑demand for formal health and social care services and/or unmet need which = ↓ QoL
+- Funding models are essential to patterns of care receipt via (dis)incentivisation. 
+- State bears the cost for highest need with lowest resources in all state. What happens with the rest is what matters.
+
+
+## Social care in the UK
+
+- Social care is a devolved matter
+- England, Scotland and Wales all employ thresholds for care access
+- Data on Northern Ireland is hard to come by
+- Property is only adjudicated an asset with reference to residential care
+- Wales has a more generous threshold than other nations
+- Personal Care is free in Scotland
+- Rates of receipt of social care have reduced in all home nations since 2010
+- Austerity has created major difficulties for Local Authorities
+
+
+##  {background-image="img/figure_1.jpg" background-size="contain" background-position="centre"}
+
+### Social care and inequalities
+
+## Social care and inequalities
+
+- Is there an “Inverse social care law”?
+- No good measures of need
+- How is eligibility defined/applied?
+  - Direct effect on equity and access
+  - National Eligibility Framework in England (similar in Scotland)
+  - Likely to need “Critical” assessment before care is provided – “intensification”
+
+“…such an approach is economically unsound. Waiting for people to have high needs before providing care means that care will be more expensive, as well as pushing more people into an already pressurised NHS.” (Abrahams et al, 2014)
+
+
+## Thank you
+
+::: columns
+::: {.column width="50%"}
+![](img/john-moeses-bauan-8YVaEljM-9I-unsplash.jpg)
+:::
+
+::: {.column width="50%"}
+
+- Any questions??
+
+:::
+:::
+
+
+
+
+\## {background-image="img/vlad-sargu-ItphH2lGzuI-unsplash.jpg"}
